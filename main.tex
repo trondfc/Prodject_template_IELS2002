@@ -1,12 +1,25 @@
 \documentclass{article}
 \usepackage{packages}
 
-\imp
 
 \begin{document}
 
-\maketitle
+\import{}{Title}
 
-\section{Introduction}
+%\tableofcontents
+
+\import{./Sections}{Project_goal}
+
+\import{./Sections}{Iteration_0}
+\import{./Sections}{Iteration_1}
+\import{./Sections}{Iteration_N}
+
+\newpage
+\import{./Sections}{Summary}
+
+
+\nocite{Karolyn_Scott_latexTips}
+\newpage
+\printbibliography[heading = bibintoc, title = References]
 
 \end{document}
